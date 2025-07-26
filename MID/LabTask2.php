@@ -11,7 +11,7 @@
     <table>
         <td>
             <tr>
-        <p class="Stittle1"><b>Your trusted Financial Partner</b></p>
+        <p class="Stittle1"><b>Customer registration Form</b></p>
     </tr>
 </td>
 </table>
@@ -161,6 +161,10 @@
         color:Blue;
         font-size:20px;
         text-align:center;
+    }
+    .Stittle1{
+        color:Green;
+        font-size:25px;
     }
     .Rbutton{display:default;
         margin-left:180px;
