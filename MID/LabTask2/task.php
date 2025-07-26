@@ -127,6 +127,8 @@
 
         </table>
     </div>
+
+    <br>
     <div class="overflow">
         this is a demo text to show how over flow workd in a small container with a certain space.
 
@@ -141,8 +143,8 @@ body {
 
 .div {
     background-color: white;
-    height: 500px;
-    width: 500px;
+    height: 420px;
+    width: 450px;
     padding: 10px;
     border: 1px solid #aa0e0eff;
 }
