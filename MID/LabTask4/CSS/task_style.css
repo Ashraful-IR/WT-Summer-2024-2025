@@ -30,14 +30,15 @@ body {
   width: 640px;
   height: 20px;
   border-radius: 2px;
-  border: 1px solid rgb(163, 84, 31);
+  border: 1px solid rgb(137, 136, 136);
+  opacity:0.5;
 }
 
 .cmnt {
   width: 640px;
   height: 80px;
-  border-radius: 2px;
-  border: 1px solid rgb(163, 84, 31);
+  border: 1px solid rgb(137, 136, 136);
+  opacity:0.5;
 }
 
 cmnt::placeholder {
