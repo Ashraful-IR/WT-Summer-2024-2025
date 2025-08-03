@@ -1,1 +1,54 @@
+body {
+  background-color: rgb(117, 121, 122);
+  font-family: Arial, sans-serif;
+  justify-content:center;
+  display: flex;
+  font-weight: bold;
+  font-size: 10px;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.text {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.text1 {
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.password {
+  width: 640px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgb(163, 84, 31);
+}
+
+.cmnt {
+  width: 640px;
+  height: 80px;
+  border-radius: 2px;
+  border: 1px solid rgb(163, 84, 31);
+}
+
+cmnt::placeholder {
+  color: gray;
+  font-style: italic;
+  vertical-align: top;
+}
+
+.buttons {
+  margin-top: -5px;
+  margin-left:-8px;
+  padding: 10px;
+}
 
