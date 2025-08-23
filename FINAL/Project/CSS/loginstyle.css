@@ -14,8 +14,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
+h2 {
+  color: #ffffff;
+  font-size: 1.2em;
+  text-decoration: underline #ffffff ;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  animation: glow 1.5s infinite alternate;
+} 
 .login-box {
   position: relative;
   width: 400px;
@@ -57,12 +65,12 @@ body {
 .input-box input {
   width: 100%;
   height: 40px;
-  color: #a187e9;;
+  color: #a187e9;
   background: transparent;
   border: none;
   outline: none;
   font-size: 0.8em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0 35px 0 5px;
 }
 .input-box .icon {
@@ -130,7 +138,6 @@ button:hover {
   color: #ffffff;
   text-decoration: underline;
   font-size: 0.9em;
-
 }
 .register a:hover {
   text-decoration: underline;

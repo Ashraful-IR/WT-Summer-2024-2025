@@ -9,8 +9,9 @@
 </head>
 
 <body>
-
     <div class="login-box">
+        <h2>Log In To Your Account</h2>
+
         <div class="input-box">
             <span class="icon">
                 <ion-icon name="mail-unread"></ion-icon>
@@ -34,7 +35,7 @@
         </div>
         <div class="register">
             <p>Dont have an account?
-                <a href="#">Create an account</a>
+                <a href="signup.php">Create an account</a>
             </p>
         </div>
     </div>
