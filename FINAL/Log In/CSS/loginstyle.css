@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #f0f0f0;
+  background:linear-gradient(120deg, #2980b9, #8e44ad);
 }
 .login-box {
   position: relative;
