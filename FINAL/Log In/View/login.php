@@ -15,25 +15,27 @@
             <span class="icon">
                 <ion-icon name="mail-unread"></ion-icon>
             </span>
-            <input type="email" class="" required>
+            <input type="email" class="text" required>
             <label for="">Email</label>
         </div>
         <div class="input-box">
             <span class="icon">
                 <ion-icon name="lock-closed"></ion-icon>
             </span>
-            <input type="password" class="" required>
+            <input type="password" class="text" required>
             <label for="">Password</label>
         </div>
         <div class="remember-forgate">
             <label><input type="checkbox">Remeber me</label>
             <a href="">Forgot Password?</a>
         </div>
-        <div >
+        <div>
             <button type="submit" class="log-btn">Log In</button>
         </div>
         <div class="register">
-            <p>Dont have an account? <a href="">Create an account</a></p>
+            <p>Dont have an account?
+                <a href="#">Create an account</a>
+            </p>
         </div>
     </div>
 
