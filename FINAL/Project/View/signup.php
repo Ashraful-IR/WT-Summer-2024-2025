@@ -56,7 +56,10 @@
                 </td>
             </tr>
             </div>
-          
+          <td>
+            <label for="lname">Phone</label><br>
+            <input type="text" name="phone"id="phone"class="password"/>
+          </td>
         </tr>
         <tr>
           <td>
