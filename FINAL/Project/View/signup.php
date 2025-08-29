@@ -9,84 +9,85 @@
 </head>
 
 <body>
-    <form name="form" method="post" onsubmit="return validateForm()">
-    
-        
-      <table>
-        <tr>
-          <td>
-            <label for="fnamme">First Name</label><br>
-            <input type="text" name="fname" id="fname" class="password" />
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label for="lname">Last Name</label><br>
-            <input type="text"name="lname"id="lname"class="password"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label for="lname">Address</label><br>
-            <input type="text"name="address"id="address"class="password"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label for="lname">City</label><br>
-            <input type="text"name="city"id="city"class="password"/>
-          </td>
-        </tr>
-        <tr>
-            <div>
-                <tr>
-                <td>
-                    <label for="state">State</label><br>
-                        <select name="state" id="state" calss="state" placeholder="Select State" style="width:100%" style="opacity: 0.5;" style="color: rgb(137, 136, 136);">
-                            <option value="" disabled selected hidden>State</option>
-                            <option value="">Dhaka</option>
-                            <option value="">Chittagong</option>
-                            <option value="">Khulna</option>
-                            <option value="">Rajshahi</option>
-                            <option value="">Sylhet</option>
-                        </select>
-                </td>
-            </tr>
+    <div class="signup-box">
+            <h2>Sign Up With Your Informations</h2>
+        <div class="left">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="text" class="text" required>
+                <label for="">First Name</label>
             </div>
-          <td>
-            <label for="lname">Phone</label><br>
-            <input type="text" name="phone"id="phone"class="password"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="lname">Email</label><br>
-            <input type="text"name="email"id="email"class="password"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="lname">Creat Password(min 8 word)</label><br>
-            <input type="text"name="password"id="password"class="password"/>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="lname">Confirm Password</label><br>
-            <input type="text"name="Cpassword"id="Cpassword"class="password"/>
-          </td>
-        </tr>
-      </table>
-      <br />
-      <br />
-      <div class="buttons">
-        <button type="submit" value="submit">submit</button>
-        <button type="cancel" value="cancel">Cancel</button>
-      </div>
-    </form>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="text" class="text" required>
+                <label for="">Last Name</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="email" class="text" required>
+                <label for="">Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="text" class="text" required>
+                <label for="">Phone Number</label>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="password" class="text" required>
+                <label for="">Password</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <input type="password" class="text" required>
+                <label for="">Connfirm Password</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <select name="" class="text" id="">
+                  <option value="" disabled selected hidden> Designation</option>
+                  <option value="">Manager</option>
+                  <option value="">Employee</option>
+                  <option value="">Customer</option>
+                  <option value="">Admin</option>
+                </select>
+            </div>
+             <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail-unread"></ion-icon>
+                </span>
+                <select name="" class="text" id="">
+                  <option value="" disabled selected hidden> Department</option>
+                  <option value="">Manager</option>
+                  <option value="">Employee</option>
+                  <option value="">Customer</option>
+                  <option value="">Admin</option>
+                </select>
+            </div>
+
+        </div>
+        <div>
+            <button type="submit" class="signup-btn">Sign Up</button>
+        </div>
     </div>
+</body>
 
 </html>
