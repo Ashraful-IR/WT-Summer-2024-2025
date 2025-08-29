@@ -29,14 +29,14 @@ h2 {
   width: 400px;
   height: 450px;
   padding: 40px;
-  background: linear-gradient(to bottom, #000000, #4a4d52);
+  background: linear-gradient(to bottom, #000000, #383a3d);
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   flex-direction: column;
   display: flex;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .input-box {
   width: 350px;
