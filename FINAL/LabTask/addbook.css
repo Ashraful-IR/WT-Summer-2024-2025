@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+header {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.password {
+  width: 640px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid rgb(137, 136, 136);
+  opacity:0.5;
+  padding: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #90ee90;
+  color: #333;
+}
+
+.edit:hover {
+  background-color: #76c776;
+}
+
+.delete {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.delete:hover {
+  background-color: #ddd;
+}
